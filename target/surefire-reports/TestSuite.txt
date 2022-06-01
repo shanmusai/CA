@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 137.464 s <<< FAILURE! - in TestSuite
+Testcases.Contactpage_TC.ContactPage  Time elapsed: 21.228 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"	//p[@class='note note--success']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MT-31196458H', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.35 (8df3babf8da8f..., userDataDir: C:\Users\M1073121\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56881}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 72cdc8dd732309c1bfa8b48062166c42
+*** Element info: {Using=xpath, value=	//p[@class='note note--success']}
+	at Testcases.Contactpage_TC.ContactPage(Contactpage_TC.java:31)
+
+Testcases.Newsletter_locator_TC.Newsletter_Locator  Time elapsed: 4.651 s  <<< FAILURE!
+java.lang.AssertionError: expected [Newsletter] but found [404: Page Not Found | Mailchimp]
+	at Testcases.Newsletter_locator_TC.Newsletter_Locator(Newsletter_locator_TC.java:42)
+
+Testcases.Loginpage_TC.Loginpage  Time elapsed: 20.46 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='customer_logout_link']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MT-31196458H', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.35 (8df3babf8da8f..., userDataDir: C:\Users\M1073121\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56881}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 72cdc8dd732309c1bfa8b48062166c42
+*** Element info: {Using=xpath, value=//a[@id='customer_logout_link']}
+	at Testcases.Loginpage_TC.Loginpage(Loginpage_TC.java:66)
+
